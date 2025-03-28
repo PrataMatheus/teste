@@ -44,6 +44,14 @@
         }
         button:hover {
             background: #45a049;
+
+        }
+        .nao {
+            background: gray; /* Cor de fundo cinza */
+    color: white; /* Cor do texto */
+    cursor: not-allowed; /* Cursor indicando que não é clicável */
+    opacity: 0.6; /* Deixa o botão mais "apagado" */
+    border: 1px solid darkgray;
         }
     </style>
 </head>
@@ -53,7 +61,7 @@
         <h2>sei la </h2>
         <p>Olá namorada, quer namorar comigo??</p>
         <button onclick="alert('Eu te amo S2 S2')">Siim</button>
-        <button disabled="disabled">Não</button>
+        <button class="nao" disabled="disabled">Não</button>
     </section>
     <footer>© 2025 Meu Site Bonitinho</footer>
 </body>
