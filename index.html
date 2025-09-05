@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site Bonitinho</title>
+    <title>Pomodoro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="banner.jpg" alt="">
-    <section>
-        <h2>sei la </h2>
-        <p>Olá namorada, quer namorar comigo??</p>
-        <button onclick="alert('Eu te amo S2 S2')">Siim</button>
-        <button class="nao" disabled="disabled">Não</button>
-    </section>
-    
-    <footer>© 2025 Meu Site Bonitinho</footer>
+    <nav id="navbar">
+        
+        <div class="logo_titulo">
+            <img class="logo"  src="" alt="" srcset="pomodoroLogo.png">
+            <h1>Pomodoro</h1>
+        </div>
+        <span class="status" id="status">Pomodoro</span>
+    </nav>
+
+    <div id="timerDiv" ></div>
+    <button id="botao" onclick=iniciaPausa()> Iniciar
+    </button>
+    <script src="js.js"></script>
 </body>
 </html>
-
 
